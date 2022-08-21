@@ -152,7 +152,7 @@ df_piv.plot.pie(subplots=True,
                 title='Proportion Churn by Product')
 #plt.pie(df_piv, subplots=True, layout=(-1, 2), autopct='%1.0f%%', startangle=90)
 plt.tight_layout()
-col1,col2=st.columns([4,6])
+col1,col2,col3=st.columns([2,6,2])
 col2.pyplot()
 
 #st.write('Grafik kategori jumlah transaksi')
